@@ -44,7 +44,7 @@ subsonicfvs="subsonic-$subsonicversion-standalone.tar.gz"
 sffmpegfv="https://bitbucket.org/feralhosting/feralfiles/downloads/ffmpeg.30.11.2013.zip"
 sffmpegfvs="ffmpeg.30.11.2013.zip"
 #
-scripturl="https://raw.github.com/feralhosting/feralfilehosting/master/Feral%20Wiki/Software/Subsonic%20and%20Madsonic/scripts/subsonic/install.subsonic.sh"
+scripturl="https://raw.github.com/maletor/feralfilehosting/patch-1/Feral%20Wiki/Software/Subsonic%20and%20Madsonic/scripts/subsonic/install.subsonic.sh"
 #
 ############################
 ####### Variable End #######
