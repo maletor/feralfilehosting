@@ -1,8 +1,8 @@
 #!/bin/bash
 # Install Subsonic
-scriptversion="1.6.4"
+scriptversion="1.6.5"
 scriptname="install.subsonic"
-subsonicversion="4.8"
+subsonicversion="4.9"
 javaversion="1.7 Update 51"
 jvdecimal="1.7.0_51"
 #
@@ -38,8 +38,8 @@ installedjavaversion=$(cat ~/.javaversion 2> /dev/null)
 # Java URL
 javaupdatev="http://javadl.sun.com/webapps/download/AutoDL?BundleId=83374"
 # Subsonic Standalone files
-subsonicfv="https://sourceforge.net/projects/subsonic/files/subsonic/4.8/subsonic-4.8-standalone.tar.gz"
-subsonicfvs="subsonic-4.8-standalone.tar.gz"
+subsonicfv="https://sourceforge.net/projects/subsonic/files/subsonic/$subsonicversion/subsonic-$subsonicversion-standalone.tar.gz"
+subsonicfvs="subsonic-$subsonicversion-standalone.tar.gz"
 # ffmpeg files
 sffmpegfv="https://bitbucket.org/feralhosting/feralfiles/downloads/ffmpeg.30.11.2013.zip"
 sffmpegfvs="ffmpeg.30.11.2013.zip"
@@ -424,8 +424,8 @@ then
             sleep 1
             echo "Removing RSK scripts if present."
             rm -f ~/.nginx/conf.d/000-default-server.d/subsonic.conf
-            rm -f ~/bin/subsonic.4.8
-            rm -f ~/subsonic.4.8.sh
+            rm -f ~/bin/subsonic.4.9
+            rm -f ~/subsonic.4.9.sh
             rm -f ~/subsonicstart.sh
             rm -f ~/subsonicrestart.sh
             rm -f ~/subsonickill.sh
